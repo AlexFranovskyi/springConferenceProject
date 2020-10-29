@@ -23,7 +23,7 @@ public class LoginController {
 	@GetMapping("/login")
 	public String loginForm() {
 		if (isAuthenticated()) {
-			return "redirect:/main";
+			return "redirect:/";
 		}
 		return "login";
 	}
@@ -31,7 +31,7 @@ public class LoginController {
 	@GetMapping("/registration")
 	public String registration(Model model) {
 		if (isAuthenticated()) {
-			return "redirect:/main";
+			return "redirect:/";
 		}
 		model.addAttribute("roles", Role.values());
 		return "registration";

@@ -1,12 +1,13 @@
+<#include "parts/locales/locale.ftlh">
 <#import "parts/common.ftlh" as common>
 <@common.page>
-	<h3>List of users</h3>
+	<h3>${listOfAccounts}</h3>
 	
-<table>
+<table class="table table-striped">
 	<thead>
 	<tr>
-		<th>User</th>
-		<th>Role</th>
+		<th>${user}</th>
+		<th>${role}</th>
 	</tr>
 	</thead>
 	<tbody>

@@ -1,11 +1,11 @@
+<#include "parts/locales/locale.ftlh">
 <#import "parts/common.ftlh" as common>
-<#import "parts/sorting.ftlh" as sorting>
-<#import "parts/conference_list.ftlh" as confList>
-
+<#include "parts/security.ftlh" >
+<#import "parts/task.ftlh" as task>
 <@common.page>
-    <div>Main page</div>
-    ${message?ifExists}
-    
-    <@sorting.sortForm "/main" />
-    <@confList.conferenceList "/main"/>    
+<@task.techTask />
+
+	<#if !known>
+		<Strong>${messageForGuest} <a href="/login">${signInProposal}</a></Strong>
+	</#if>
 </@common.page>

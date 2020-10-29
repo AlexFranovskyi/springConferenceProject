@@ -1,0 +1,80 @@
+<#ftl encoding="cp1251">
+<#assign
+	conferences = "Конференції"
+	userPage = "Сторінка користувача"
+	adminCabinet = "Кабінет адміністратора"
+	speakerCabinet = "Кабінет спікера"
+	signIn = "Увійти"
+	
+	listOfConferences = "Список конференцій"
+	conferenceDetails = "Деталі конференції"
+	conferenceName = "Назва конференції"
+	dateAndTime = " Дата і час"
+	location = "Місце"
+	amountOfReports = "Кількість доповідей"
+	amountOfRegisteredVisitors = "Кількість зареєстрованих відвідувачів"
+	amountOfArrivedVisitors = "Кількість прибулих відвідувачів"
+	reports = "Доповіді"
+	updateData = "Змінити дані"
+	updateConference = "Оновити конференцію"
+	
+	visit = "Відвідати"
+	details = "Деталі"
+	
+	username = "Ім'я користувача"
+	password = "Пароль"
+	register = "Зареєструватися"
+	email = "Електронна пошта"
+	setRole = "Оберіть роль"
+	
+	signOut = "Вийти"
+	pages = "Сторінки"
+	
+	listOfReports = "Список доповідей"
+	reportName = "Назва"
+	speakerName = "Ім'я спікера"
+	status = "Статус"
+	takeReport = "Взяти доповідь"
+	approve = "Завтердити"
+	disapprove = "Зняти затверджння"
+	noReportsToDisplay = "Немає доповідей для відображження"
+	approved = "Затверджено"
+	notApproved = "Не затверджено"
+	
+	showConferences = "Показати конференції"
+	sortOptions = "Критерії сортування"
+	fromLatestToEarliest = "від найпізнішої дати проведення до найранішої"
+	fromEarliestToLatest = "від найранішої дати до найпізнішої"
+	fromUtmostReportsToLeast = "від нійбільшої кількості доповідей до найменшої"
+	fromLeastReportsToUtmost = "від найменшої кількості доповідей до найбільшої"
+	fromUtmostRegisteredVisitorsToLeast = "від максимуму зареєстрованих відвідувачів до мінімуму"
+	fromLeastRegisteredVisitorsToUtmost = "від мінімуму зареєстрованих відвідувачів до максимуму"
+	futureEvents = "Майбутні події"
+	pastEvents = "Минулі події"
+	
+	postNewConference = "Опублікувати нову конференцію"
+	name = "назва"
+	createNewEvent = "Створити нову подію"
+	nothingToDisplay = "Нічого відображати"
+	loginPage = "Сторінка авторизації"
+	
+	messageForGuest = "Ви зайшли як неавторизований користувач, будь ласка,"
+	signInProposal = "авторизуйтеся"
+	registrationForm = "Реєстраційна форма"
+	backToLoginPage = "Назад до сторінки авторизації"
+	
+	showReports = "Показати доповіді"
+	createNewReport = "Створити нову доповідь"
+	postNewReport = "Опублікувати нову доповідь"
+	
+	userPage = "Сторінка користувача"
+	listOfAccounts = "Список аккаунтів"
+	user = "Користувач"
+	role = "Роль"
+	switchLanguage = "Змінити мову"
+	
+	delete = "Видалити"
+	clearSpeaker = "Зняти спікера"
+	speakerReports = "Ваші власні доповіді"
+
+>

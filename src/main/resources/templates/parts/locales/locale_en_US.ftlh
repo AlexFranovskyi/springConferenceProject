@@ -1,0 +1,80 @@
+<#ftl encoding="cp1251">
+<#assign
+	conferences = "Conferences"
+	userPage = "User page"
+	adminCabinet = "Admin cabinet"
+	speakerCabinet = "Speaker cabinet"
+	signIn = "sign in"
+	
+	listOfConferences = "List of conferences"
+	conferenceDetails = "Conference details"
+	conferenceName = "Conference name"
+	dateAndTime = " Date and Time"
+	location = "Location"
+	amountOfReports = "Amount of reports"
+	amountOfRegisteredVisitors = "Amount of registered visitors"
+	amountOfArrivedVisitors = "Amount of arrived visitors"
+	reports = "Reports"
+	updateData = "Update data"
+	updateConference = "Update conference"
+	
+	visit = "Visit"
+	details = "Details"
+	
+	username = "Username"
+	password = "Password"
+	register = "register"
+	email = "email"
+	setRole = "Set role"
+	
+	signOut = "Sign out"
+	pages = "Pages"
+	
+	listOfReports = "List of reports"
+	reportName = "Report name"
+	speakerName = "Speaker name"
+	status = "status"
+	takeReport = "take report"
+	approve = "Approve"
+	disapprove = "Disapprove"
+	noReportsToDisplay = "No reports to display"
+	approved = "Approved"
+	notApproved = "Not approved"
+	
+	showConferences = "Show conferences"
+	sortOptions = "Sort options"
+	fromLatestToEarliest = "from latest to earliest"
+	fromEarliestToLatest = "from earliest to latest"
+	fromUtmostReportsToLeast = "from utmost reports to least"
+	fromLeastReportsToUtmost = "from least to utmost"
+	fromUtmostRegisteredVisitorsToLeast = "from utmost registered visitors to least"
+	fromLeastRegisteredVisitorsToUtmost = "from least registered visitors to utmost"
+	futureEvents = "future events"
+	pastEvents = "past events"
+	
+	postNewConference = "Post new conference"
+	name = "name"
+	createNewEvent = "Create new event"
+	nothingToDisplay = "Nothing to display"
+	loginPage = "Login page"
+	
+	messageForGuest = "You have entered as unauthorized user, please,"
+	signInProposal = "sign in"
+	registrationForm = "Registration form"
+	backToLoginPage = "Back to login page"
+	
+	showReports = "Show reports"
+	createNewReport = "Create new report"
+	postNewReport = "Post new report"
+	
+	userPage = "User page"
+	listOfAccounts = "List of accounts"
+	user = "User"
+	role = "Role"
+	switchLanguage = "Switch language"
+	
+	delete = "Delete"
+	clearSpeaker = "Remove speaker"
+	speakerReports = "Your own reports"
+
+>
